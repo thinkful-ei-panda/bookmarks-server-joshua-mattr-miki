@@ -2,7 +2,7 @@
   "name": "express-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "mocha --require test/setup.js",
     "dev": "nodemon src/server.js",
@@ -19,6 +19,8 @@
     "express": "^4.17.1",
     "helmet": "^3.23.3",
     "morgan": "^1.10.0",
+    "uuid": "^8.2.0",
+    "valid-url": "^1.0.9",
     "winston": "^3.3.3"
   },
   "devDependencies": {

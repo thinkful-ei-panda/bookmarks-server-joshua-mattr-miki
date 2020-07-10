@@ -3,3 +3,17 @@
 {"message":"Unauthorized request to path: /bookmarks","level":"error"}
 {"message":"Unauthorized request to path: /bookmarks","level":"error"}
 {"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"bookmarks with id 1a38f1df-ce81-4c99-a732-2beb0137de73 created","level":"info"}
+{"message":"bookmarks with id 2614a925-1cc8-45d3-949d-c8b56b0808be created","level":"info"}
+{"message":"bookmarks with id e6083d2a-931f-4429-a5e6-c511bf88d08d created","level":"info"}
+{"message":"bookmarks with id 152fbd7f-a06b-4e1d-8615-ae66d28b4f06 created","level":"info"}
+{"message":"bookmarks with id 76d06754-daa4-4689-acb8-1ba57409cd7c created","level":"info"}
+{"message":"bookmarks with id 76d06754-daa4-4689-acb8-1ba57409cd7c deleted.","level":"info"}
+{"message":"bookmarks with id 45643 not found.","level":"error"}
+{"message":"bookmarks with id 5fb97bc1-51ef-4e95-a22b-6b73dfb9450e created","level":"info"}
+{"message":"Title is required","level":"error"}
+{"message":"Valid is required","level":"error"}
+{"message":"Valid is required","level":"error"}
+{"message":"Valid is required","level":"error"}
+{"message":"Valid is required","level":"error"}
+{"message":"bookmarks with id ab2ee538-8904-4913-9482-0d49902f65a5 created","level":"info"}

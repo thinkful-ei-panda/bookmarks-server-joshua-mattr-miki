@@ -1,1 +1,0 @@
-const bookmarksData = require('./bookmarks-data');
