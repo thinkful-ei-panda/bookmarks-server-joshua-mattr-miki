@@ -10,9 +10,6 @@ const { makeBookmarksArray } = require('./bookmarks-fixtures')
 // PATCH test with no bookmark found
 // PATCH test with bookmark found
 // Sanitation
-// Hello, if you're going to copy this code I worked hard for 
-// line by line, change a bit here and there, and then call it yours, that's still
-// plagiarizing.
 
 describe(`Bookmarks Endpoints`, function() {
     let db;
