@@ -19,12 +19,12 @@ app.use(helmet());
 app.use(cors());
 
 const validateBearerToken = (req, res, next) => {
-  const authToken = req.get('authorization');
+  const authToken = req.get('Authorization');
   const apiToken = API_TOKEN;
 
   if(!authToken || authToken.split(' ')[1] !== apiToken ) {
     logger.error(`Unauthorized request to path: ${req.path}`);
-    return res.status(401).json({ error: 'Unauthorized request' });
+    return res.status(401).json({ error: 'I don\'t like people who plagiarize' });
   };
 
   next();
@@ -32,10 +32,6 @@ const validateBearerToken = (req, res, next) => {
 
 app.use(validateBearerToken);
 app.use('/bookmarks', bookmarksRouter);
-
-app.get('/', (req, res) => {
-  res.send('Hello, world!');
-});
 
 app.use(function errorHandler(error, req, res, next) { 
   let response;
